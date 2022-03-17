@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: poppins;
+}
+
+header h2 {
+  color: black;
+  background-color: #f6f6f6;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+section.content-box {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 5px 20px 5px;
+}
+
+section div.disclaimer {
+  background-color: white;
+  border: 0.25px solid black;
+  padding: 7px 4px 7px 4px;
+  width: 350px;
+  height: 45px;
+  border-radius: 4px;
+  margin: 0px 0px 20px 0px;
+}
+
+table.term-table,
+td,
+th {
+  /*Linear motion and Angular motion term table */
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding-left: 4px;
+}
+
+table th {
+  background-color: #eee;
+}
+
+table.term-table {
+  width: 100%;
+  padding: 3px 5px;
+}
