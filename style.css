@@ -5,6 +5,11 @@
   margin: 0;
 }
 
+sup,
+sub {
+  font-size: 0.5rem;
+}
+
 body {
   background-color: #eee;
   font-family: poppins;
@@ -30,8 +35,7 @@ section div.disclaimer {
   background-color: white;
   border: 0.25px solid black;
   padding: 7px 4px 7px 4px;
-  width: 350px;
-  height: 45px;
+  height: auto;
   border-radius: 4px;
   margin: 0px 0px 20px 0px;
 }
@@ -52,4 +56,17 @@ table th {
 table.term-table {
   width: 100%;
   padding: 3px 5px;
+  margin-bottom: 25px;
+}
+
+span.differ-font {
+  font-family: roboto;
+}
+
+span.formula {
+  color: red;
+}
+
+dl dt dd {
+  text-indent: 5%;
 }
